@@ -1,6 +1,6 @@
 import React from "react";
 import Project1 from "./Images/BallsToTheWall.webp";
-import Project2 from "./Images/Roadblock.webp";
+import Project2 from "./Images/roadblock.webp";
 
 const Work = () =>{
   return(
