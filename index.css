@@ -1,7 +1,7 @@
-li{
+#Menu li{
   list-style-type: none;
   float: left;
-  display: block;
+  display: inline-block;
   padding: 5px;
 }
 
@@ -22,4 +22,18 @@ li{
 
 html{
   background-color: #282C34;
+  position: absolute;
+  color: #d3d3d3;
+}
+
+#Var{
+  color: #5188B5;
+}
+
+#Spacing{
+  padding: 50px;
+}
+
+#Hero{
+  margin-left:45vw;
 }
