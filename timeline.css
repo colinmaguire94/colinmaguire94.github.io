@@ -1,0 +1,108 @@
+#Timeline{
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#Timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #d3d3d3;
+  top: 0;
+  bottom: 0;
+  left: 14%;
+  margin-left: -3px;
+}
+
+/* Container around content*/
+#Container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The actual content */
+#Content {
+  padding: 20px 0px;
+  position: relative;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  left:15%;
+}
+
+/*.Fanshawe{
+  border-color: #E41F20;;
+  border-style: none none solid none;
+  border-radius: 45px;
+  border-width: 1px;
+}*/
+
+
+.Fanshawe #Date{
+  background-color: #E41F20;
+  text-align: center;
+  top: 10%;
+}
+
+.Fanshawe::before{
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 11.7%;
+  width: 0;
+  z-index: 1;
+  left: -10px;
+  border: medium solid blue;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #E41F20 transparent transparent;
+}
+
+/*.Niagara{
+  border-color: #0077BE;
+  border-style: none none solid none;
+  border-width: 1px;
+}*/
+
+.Niagara::before{
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 10.5%;
+  width: 0;
+  z-index: 1;
+  left: -10px;
+  border: medium solid blue;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #0077BE transparent transparent;
+}
+
+.Niagara #Date{
+  background-color: #0077BE;
+  text-align: center;
+  color: silver;
+}
+
+/*
+
+@media screen and (max-width: 600px) {
+
+  #Timeline::after {
+    left: 31px;
+  }
+
+
+  #Container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+
+  #Container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }*/
