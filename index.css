@@ -38,17 +38,23 @@ html{
   margin-left:45vw;
 }
 
-#Projects{
-  display:inline-block;
-  width: 20vw;
+#BallsToTheWall{
+  display: inline-block;
+  width: 80vw;
+  height: 12vw;
+  text-align: center;
+  vertical-align: 10vw;
+  background-color: rgba(200,200,200, 0.1);
 }
 
-#Projects button{
-  margin-left: 30%;
-  width: 30%;
+#Roadblock{
+  display: inline-block;
+  width: 80vw;
+  height: 12vw;
+  text-align: center;
+  background-color: rgba(200,200,200, 0.1);
 }
 
-#Works{
-  /*margin-left: 25%;*/
-  width:95%;
+div a{
+  color: #af8c8c;
 }

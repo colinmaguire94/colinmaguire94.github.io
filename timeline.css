@@ -84,6 +84,25 @@
   color: silver;
 }
 
+.Work::before{
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 28.5%;
+  width: 0;
+  z-index: 1;
+  left: -10px;
+  border: medium solid blue;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #7D8937 transparent transparent;
+}
+
+.Work #Date{
+  background-color: #7D8937;
+  text-align: center;
+  color: white;
+}
+
 /*
 
 @media screen and (max-width: 600px) {
